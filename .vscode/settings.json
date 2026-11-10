@@ -1,0 +1,24 @@
+{
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "editor.tabSize": 2,
+  "files.associations": {
+    "*.html.erb": "erb"
+  },
+  "emmet.includeLanguages": {
+    "erb": "html"
+  },
+
+  // 📄 ADD THIS SECTION TO FIX THE AUTOCOMPLETE:
+  "emmet.customSnippets": {
+    "erb": {
+      "snippets": {
+        "pe": "<%= ${child} %>",
+        "pc": "<% ${child} %>"
+      }
+    }
+  }
+}
